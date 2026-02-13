@@ -12,7 +12,8 @@
   <script type="text/javascript">  
     const json= `{"name": "X.Y.Z", "en-name": "X.Y.Z",“ingredients”:[{“ingredient”:“ホワイトラム”,“amount”:”30ml”},{“ingredient”:“コアントロー”,”amount”:”15ml”},{“ingredient”:“レモンジュース”,”amount”:”15ml”}],“color”:”白”,“howto”:”材料をシェイク”,“Comment”:”初めてのカクテル”}`
     const object=JSON.parse(json);
-    document.write(object.name);
+    document.write("go");
+    document.write(object.name.toSteing());
     document.write(object.ingredients);
     document.write(json.toString());
   </script>
